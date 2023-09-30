@@ -1,0 +1,108 @@
+.fWrapper{
+  width: 100%;
+  border-top: .5px solid #00000026;
+ padding-bottom:3rem;
+}
+.footerContainer{
+  width: 80%;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 10rem;
+}
+.footerContainer>.footerLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+
+}
+.footerContainer > .footerLeft >.imageContainers{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+}
+.imageContainers>.titleLogo{
+  padding-top: 1rem;
+font-size: 2rem;
+
+
+
+}
+.titleLogo >span{
+ color:red;
+ font-weight: bold;
+ text-decoration: rgb(128, 120, 120) underline double;
+ text-underline-offset: 2px;
+
+
+}
+
+.footerContainer > .footerLeft >.imageContainers:hover{
+  scale: 1.3;
+  cursor: pointer;
+}
+
+.center{
+text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footerRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 3rem;
+  width: 30%;
+}
+.footerRight >.post{
+  display: flex;
+  flex-direction: column;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  width: 75%;
+  padding-left:1rem ;
+}
+.menu >span {
+  height: 2rem;
+  width: 6rem;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.menu >span >.Links{
+  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+ 
+}
+.menu >span>.Links:hover{
+  color: green;
+ 
+}
+
+.pText{
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.sText{
+  color: rgb(59, 57, 57);
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
